@@ -1,9 +1,9 @@
 # CKEditor-5
 **On application.br file.**
-_<script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>_
+```<script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>```
 
 **On your create.html.erb or _form.html.erb File** 
-_<!DOCTYPE html>
+```<!DOCTYPE html>
 <html>
 <head>
         <meta charset="utf-8">
@@ -31,10 +31,10 @@ _<!DOCTYPE html>
             } );
   </script>
 </body>
-</html>_
+</html>```
 
 **On your show.html.erb**
-_<div id="<%= dom_id post %>">
+```<div id="<%= dom_id post %>">
   <p>
     <strong>Title:</strong>
     <%= post.title %>
@@ -44,7 +44,7 @@ _<div id="<%= dom_id post %>">
     <strong>Body:</strong>
     <%= raw post.body %>
   </p>
-</div>_
+</div>```
       
 
 
